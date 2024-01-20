@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Practice</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="bg-black py-10 px-6">
+        <div class="container bg-black mx-auto">
+            <!-- nav-bar -->
+            <div class="flex justify-between items-center">
+                <!-- icon and login -->
+                <div class="flex justify-center items-center space-x-4">
+                    <div>
+                        <img src="/Day_1/icons/rocket.png" alt="">
+                    </div>
+                    <div class="font-bold text-4xl text-blue-100">
+                        <h1>Siuuuu...</h1>
+                    </div>
+                    <div class="text-[#ffa31a] lg:flex pl-8 hidden space-x-6 font-semibold ">
+                        <a class=" hover:text-[#808080] duration-500" href="">Home</a>
+                        <a class=" hover:text-[#808080] duration-500" href="">About</a>
+                        <a class=" hover:text-[#808080] duration-500" href="">Blog</a>
+                        <a class=" hover:text-[#808080] duration-500" href="">Services</a>
+                        <a class=" hover:text-[#808080] duration-500" href="">Contact</a>
+                    </div>
+                </div>
+                <div class="lg:hidden"> <img class="w-8 h-5" src="/Day_1/assets/more.png" alt=""></div>
+                <div class="lg:flex hidden font-semibold space-x-6">
+                    <button class="text-[#808080] hover:text-[#ffa31a] duration-500 font-bold text-xl">Login</button>
+                    <button
+                        class="bg-[#ffa31a] rounded-xl px-4 py-3 text-xl font-bold hover:bg-transparent border-2 border-[#ffa31a] hover:text-[#808080] duration-500">Get
+                        Started</button>
+                    <div class="lg:hidden"> <img class="w-8 h-5" src="/Day_1/assets/more.png" alt=""></div>
+                </div>
+            </div>
+
+            <div class="container text-center">
+                <h1 class="text-7xl text-white font-extrabold pt-10 pb-5">Creative way to <br>launch your <span
+                        class="text-[#ffa31a]">Rocket</span></h1>
+                <p class="text-xl text-white pt-3 pb-6">See your rocket climb high, grabbing attention and gaining loads
+                    of
+                    stars!</p>
+                <div><button
+                        class="bg-[#ffa31a] rounded-xl px-4 py-3 text-xl font-bold hover:bg-transparent border-2 border-[#ffa31a] hover:text-[#808080] duration-500">Get
+                        a Chance</button>
+                    <div class="flex justify-center space-x-3 pt-6">
+                        <img src="/Day_1/assets/play-button.png" alt="">
+                        <button class="text-[#ffa31a] hover:text-[#808080] duration-700">Play Video</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img class="lg:translate-x-[247%] translate-x-[100%] lg:translate-y-[-34.9%] translate-y-[-20%] lg:h-[500px] h-[200px] lg:-rotate-12"
+                    src="/Day_1/icons/rocket2.png " alt="">
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
